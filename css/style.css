@@ -1,0 +1,188 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* constainers*/
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/bg-whiskey.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.quotes-container {}
+
+.features-container {}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+  
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+ .navbar-btn {
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 22px;
+    color: #fff;
+    border-color: #c7c717;
+    background-color: #d32d23;
+     
+ }
+ 
+ .navbar-btn:hover {
+    color: #8a6d3b;
+    border-color: #d32d23;
+    background-color: #ffaa00;
+ }
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #04040400;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.jumbotron .lead {
+    color: #e4ebecde;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 70%;
+    font-style: italic;
+}
+
+.h1, h1 {
+    font-size: 30px;
+}
+
+.jumbotron mark {
+    padding: .2em;
+    background-color: #f9650bfc;
+    color: #131212;
+    border-radius: 40px;
+    background: #ffaa00f7;
+}
+
+.jumbotron hr {
+    width: 40%;
+    height: 5px;
+    border: 0;
+    background-color: #d32d23;
+}
+
+.jumbotron p {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+
+}
+
+
+.text-muted {
+    color: #f7f7f7;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0.5;
+    border-radius: 40px;
+    width: 160px;
+    height: 50px;
+
+}
+
+.btn--yellow {
+    color: #fff;
+    border-color: #c7c717;
+    background-color: #d32d23;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    color: #8a6d3b;
+    border-color: #d32d23;
+    background-color: #ffaa00;
+}
+
+/* Alert */
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    colour: #544600;
+    background-color: #ffaa00f7;
+    border-color:#ffaa00f7;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}

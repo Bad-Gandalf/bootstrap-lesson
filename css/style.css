@@ -2,9 +2,13 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* constainers*/
+/* containers*/
 
-.alert-container {}
+.container-wrapper.container-wrapper--red {
+        background-color: #d32d23;
+        color: white;
+        text-align: center;
+}
 
 .callout-container {
     height: 100vh;
@@ -21,9 +25,8 @@ body {
 }
 
 
-.quotes-container {}
 
-.features-container {}
+
 
 /* Navbar */
 
@@ -103,9 +106,8 @@ body {
     font-style: italic;
 }
 
-.h1, h1 {
-    font-size: 30px;
-}
+
+
 
 .jumbotron mark {
     padding: .2em;
@@ -128,7 +130,7 @@ body {
 }
 
 
-}
+
 
 
 .text-muted {
@@ -144,6 +146,30 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Block Dividers*/
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #ff6305;
+}
+
+.block-divider--short {
+    width: 45px;
+    
+    background-color: white;
+
+}
+
+.quotes .block-divider--short {
+    width: 45px;
+    
+    background-color: #333;
+
+}
 /* Buttons*/
 
 .btn--cta {
@@ -178,11 +204,33 @@ body {
 }
 
 .site-wide-alert {
-    colour: #544600;
+    color: #544600;
     background-color: #ffaa00f7;
     border-color:#ffaa00f7;
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
+}
+
+ .page-header {
+    
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+
+/* Page Headers */
+
+ .page-header h2 {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.feature .glyphicon {
+    display: block;
+    font-size: 36px;
+    margin-bottom: 20px;
 }
